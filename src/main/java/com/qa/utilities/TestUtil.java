@@ -11,7 +11,7 @@ public class TestUtil {
 		ArrayList<Object[]> mydata = new ArrayList<Object[]>();
 		
 		try {
-			reader = new Xls_Reader("C:\\Users\\HEM\\Desktop\\Automation Data\\TestDataDDT-1.xlsx");
+			reader = new Xls_Reader("C:\\Automation\\DDTFramework\\src\\main\\java\\com\\qa\\testdata\\TestDataDDT-1.xlsx");
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
